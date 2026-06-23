@@ -1,3 +1,5 @@
+[![DOI](https://img.shields.io/badge/DOI-10.82901%2Fnemar.on004252-blue)](https://doi.org/10.82901/nemar.on004252)
+
 This dataset contains electroencephalography (EEG) recordings from 16 participants viewing object images presented in eight different 2-D rotations. Stimuli were shown in rapid visual streams at two presentation rates (5 Hz and 20 Hz). EEG data are in standard bids format.  
 
 The pre-print can be found here: https://doi.org/10.31234/osf.io/wp73u
