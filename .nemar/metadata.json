@@ -2,7 +2,7 @@
   "version": "2.0",
   "pipeline_stage": "enriched",
   "title": "Rotation-tolerant representations elucidate the time course of high-level object processing",
-  "description": "This dataset comprises electroencephalography (EEG) recordings from 16 participants viewing object images presented at eight different 2-D rotations in rapid visual streams at two presentation rates (5 Hz and 20 Hz). The study investigates rotation-tolerant neural representations and their temporal dynamics during high-level object processing, providing insights into how the visual system achieves invariant object recognition across different viewing angles.",
+  "description": "This dataset comprises electroencephalography (EEG) recordings from 16 participants viewing object images presented at eight different 2-D rotations in rapid visual streams at two presentation rates (5 Hz and 20 Hz). The study investigates rotation-tolerant neural representations and their temporal dynamics during high-level object processing, providing insights into how the visual system encodes object identity invariant to viewpoint changes.",
   "methods_description": "EEG recordings were collected from 16 participants viewing object images presented in eight different 2-D rotations. Stimuli were displayed in rapid visual streams at two presentation rates: 5 Hz and 20 Hz. Data are provided in standard BIDS format.",
   "license": "CC0",
   "dataset_type": "raw",
@@ -38,22 +38,22 @@
       "term": "rotation invariance"
     },
     {
-      "term": "neural representations"
-    },
-    {
       "term": "rapid serial visual presentation"
     },
     {
       "term": "RSVP"
     },
     {
-      "term": "visual invariance"
+      "term": "neural representations"
     },
     {
-      "term": "object processing"
+      "term": "viewpoint invariance"
     },
     {
-      "term": "visual neuroscience"
+      "term": "object identity"
+    },
+    {
+      "term": "temporal dynamics"
     }
   ],
   "related_identifiers": [
