@@ -1,9 +1,9 @@
 {
   "version": "2.0",
-  "pipeline_stage": "enriched",
+  "pipeline_stage": "validated",
   "title": "Rotation-tolerant representations elucidate the time course of high-level object processing",
-  "description": "This dataset comprises electroencephalography (EEG) recordings from 16 participants viewing object images presented at eight different 2-D rotations in rapid visual streams at two presentation rates (5 Hz and 20 Hz). The study investigates rotation-tolerant neural representations and their temporal dynamics during high-level object processing, providing insights into how the visual system encodes object identity invariant to viewpoint changes.",
-  "methods_description": "EEG recordings were collected from 16 participants viewing object images presented in eight different 2-D rotations. Stimuli were displayed in rapid visual streams at two presentation rates: 5 Hz and 20 Hz. Data are provided in standard BIDS format.",
+  "description": "This dataset contains EEG recordings from 16 participants viewing object images presented in eight different 2-D rotations, using rapid visual streams at two presentation rates (5 Hz and 20 Hz). The data support investigation of rotation-tolerant object representations and the time course of high-level visual object processing. EEG data are formatted according to the BIDS standard.",
+  "methods_description": "EEG data were collected from 16 participants who viewed object images shown in eight different 2-D rotations, presented in rapid visual streams at two presentation rates (5 Hz and 20 Hz).",
   "license": "CC0",
   "dataset_type": "raw",
   "authors": {
@@ -32,43 +32,28 @@
       "term": "object recognition"
     },
     {
-      "term": "visual processing"
-    },
-    {
-      "term": "rotation invariance"
+      "term": "Visual Perception",
+      "subject_scheme": "MeSH",
+      "value_uri": "http://id.nlm.nih.gov/mesh/D014796"
     },
     {
       "term": "rapid serial visual presentation"
     },
     {
-      "term": "RSVP"
+      "term": "rotation invariance"
     },
     {
-      "term": "neural representations"
-    },
-    {
-      "term": "viewpoint invariance"
-    },
-    {
-      "term": "object identity"
-    },
-    {
-      "term": "temporal dynamics"
+      "term": "high-level vision"
     }
   ],
   "related_identifiers": [
     {
       "identifier": "10.31234/osf.io/wp73u",
       "identifier_type": "DOI",
-      "relation_type": "References"
+      "relation_type": "IsSupplementTo"
     },
     {
       "identifier": "https://github.com/nemarDatasets/on004252",
-      "identifier_type": "URL",
-      "relation_type": "IsDescribedBy"
-    },
-    {
-      "identifier": "https://nemar.org/dataexplorer/detail?dataset_id=on004252",
       "identifier_type": "URL",
       "relation_type": "IsDescribedBy"
     },
@@ -81,6 +66,11 @@
       "identifier": "10.18112/openneuro.ds004252.v1.1.0",
       "identifier_type": "DOI",
       "relation_type": "IsDerivedFrom"
+    },
+    {
+      "identifier": "https://nemar.org/dataset/on004252",
+      "identifier_type": "URL",
+      "relation_type": "IsDescribedBy"
     }
   ],
   "resource_type_general": "Dataset",
